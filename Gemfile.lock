@@ -372,7 +372,6 @@ DEPENDENCIES
   rack-livereload
   rails (= 4.0.0)
   ransack!
-  rb-inotify (~> 0.9)
   rmagick (~> 2.13.2)
   rspec-rails
   sass-rails (~> 4.0.0)

@@ -1,10 +1,43 @@
-== Basic template for rails apps
+=== Ensemble
+//--------------------------------------------------------------
+* user table
 
-This is a basic admin panel with bootstrap and rails 4 apps. I've organized and separated each asset, I've added the gems that I like and I'll use it for basic prototypes that I want to build. Feel free to do suggestions.
+- username
+- facebook account
+- email, password
+- location address information
+- short profile desc.
 
-- Well, do a grep and change the name "TemplateApp" in whatever you want
-- Change the file config/initializers/secret_token.rb
-- Change the db/seeds/01_users.rb
-- Do a rake db:dev:init (it needs postgresql)
+Add tags to self interest
+- Genre - rock, jazz, etc..
+- Instrument - saxophone, etc..
 
-...and you are good to go with a basic setup!
+login information
+- Instrument you have right now. 
+- 2 modes - instant session, or plan a session in the future.
+
+rating
+- rating for the user
+- allowed only after the session is completed.
+
+
+//--------------------------------------------------------------
+* session table
+
+list of needed instruments
+- number of needed people
+- list of needed instruments
+
+- ensemble/teaching session flag
+
+list of members
+- list of user models.
+
+- location
+
+//--------------------------------------------------------------
+* Instrument table
+
+
+- chat screen
+
